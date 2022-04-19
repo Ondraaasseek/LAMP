@@ -2,8 +2,31 @@
     width: 60px;
     height: 60px;
     display: inline-block;
-    float: left;;
+    float: left;
     border: 3px white solid;
+}
+#skolaLogo{
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    border: 3px white solid;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    left: Calc(50% - 350px);
+    font-family: MontserratR;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 60px 1fr;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+}
+#podpis{
+    height: 70px;
+    line-height: 70px;
 }
 #head{
     font-family: MontserratB;
