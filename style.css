@@ -1,0 +1,102 @@
+#logo{
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    float: left;
+    border: 3px white solid;
+}
+#skolaLogo{
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    border: 3px white solid;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    left: Calc(50% - 350px);
+    font-family: MontserratR;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 60px 1fr;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+}
+#podpis{
+    height: 70px;
+    line-height: 70px;
+}
+#head{
+    font-family: MontserratB;
+    font-size: x-large;
+    padding: 18.5px;
+}
+header{
+    color: #222;
+    height: 60px;
+}
+hr{
+    margin-top: 6px;
+    color: #222;
+}
+.nadpis{
+    font-family: MontserratR;
+    margin-left: Calc(50% - 290px);
+}
+#controls{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 0 10px;
+    width: 600px;
+    height: 96px;
+    margin: auto;
+    padding-bottom: 0.5%;
+}
+.lightSwitch{
+    background-color: #006;
+    color: whitesmoke;
+    border: #222 1px solid;
+    border-radius: 15%;
+    text-align: center;
+    line-height: 83.59px;
+    width: 100%;
+    height: 85%;
+    cursor: pointer;
+    font-family: MontserratB;
+}
+.lightSwitch:hover{
+    font-size: larger;
+    box-shadow: 6px 6px 3px #222;
+}
+#colors{
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 60px 60px 60px 60px;
+    grid-template-rows: 60px 60px 60px 60px;
+    gap: 5px 5px;
+    width: 600px;
+    height: 260px;
+    margin: auto;
+}
+.color{
+    cursor: pointer;
+}
+#colors input{
+    margin: 0;
+    width: 45px;
+    height: 45px;
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+@font-face {
+	font-family: MontserratB;
+	src: url(Montserrat-Bold.otf);
+}
+@font-face {
+	font-family: MontserratR;
+	src: url(Montserrat-Regular.otf);
+}
